@@ -25,7 +25,7 @@ nav.active{background: rgba(0, 0, 0, 0.315);}
   .st_title_text>h1{font-size: 35px; letter-spacing: 5px;padding:50px 0 0 0; text-transform: uppercase;}
 
   #introduce{width: 100%;height: 700px; background-color: #030d18;}
-  .me{width: 1100px; height: 100%;background-color: slategray; margin: 0 auto;}
+  .me{width: 1100px; height: 100%; margin: 0 auto;}
   .me>h1{text-align: center; text-transform: uppercase;font-size:50px ; padding-top: 50px;}
   .photo{width: 300px;height: 300px;background-color: slateblue;border-radius: 10px;}
   .me_contents{display: flex; justify-content: space-evenly; align-items: flex-start;width: 100%;height: 500px; margin-top: 100px;}
@@ -36,7 +36,7 @@ nav.active{background: rgba(0, 0, 0, 0.315);}
  #skills{width: 100%;height: 500px;background-color: coral;}
  .skills_contents{width: 1100px;height: 100%;background-color: cornflowerblue;margin: auto;}
  .skills_contents>h1{text-align: center;text-transform: uppercase;font-size: 50px; padding-top: 50px;}
- .skills_contents>img{float: left;width: 180px;}
+ .skills_contents>img{float: left;width: 130px;margin-left: 110px;margin-top: 35px;}
  
 
 
