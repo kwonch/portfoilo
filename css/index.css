@@ -33,11 +33,15 @@ nav.active{background: rgba(0, 0, 0, 0.315);}
  .me_text_2>li>span{font-size:25px; display: block; border-bottom: 1px solid #ddd;font-weight: bold;}
  .me_text_2>li{margin-top: 20px; }
 
- #skills{width: 100%;height: 500px;background-color: coral;}
- .skills_contents{width: 1100px;height: 100%;background-color: cornflowerblue;margin: auto;}
+ #skills{width: 100%;height: 600px;background-color: #030d18;}
+ .skills_contents{width: 1100px;height: 100%;margin: auto;}
  .skills_contents>h1{text-align: center;text-transform: uppercase;font-size: 50px; padding-top: 50px;}
- .skills_contents>img{float: left;width: 130px;margin-left: 110px;margin-top: 35px;}
+ .skills_img{display: flex; justify-content: space-evenly;}
+ .skills_img>img{width: 130px;margin-top: 35px;}
+ .skills_text>ul>li{line-height: 35px; font-size: 18px; margin: 35px 0 0 150px; list-style-type:circle;}
  
 
 
   #portfolio{width: 100%;height: 2000px;background-color: seagreen;}
+  .portfolio_contents{width: 1100px; height: 100%; background-color: sandybrown;margin:0 auto;}
+  .portfolio_contents>h1{text-align: center;text-transform: uppercase;font-size: 50px; padding-top: 50px;}
