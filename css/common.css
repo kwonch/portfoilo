@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-*{margin:0; padding:0; box-sizing: border-box;color:#fff;  font-family: 'Pretendard-Regular';}
+*{margin:0; padding:0; box-sizing: border-box;  font-family: 'Pretendard-Regular';}
+body{color:#fff;}
 
 a{text-decoration: none;}
 ul,ol,li{list-style-type: none;}
