@@ -24,11 +24,20 @@ nav.active{background: rgba(0, 0, 0, 0.315);}
 .menu_btn{ display: inline-block;position: relative;padding:15px 20px;}
 .menu_btn::before{content:'';position: absolute;bottom:0%;left:0px;width: 100%; height: 3px; background: #6098ff;display: block;transform-origin: right top; transform: scale(0,1);transition: transform 0.4s cubic-bezier(1,0,0,1);}
 .menu_btn:hover::before{transform:scale(1,1);transform-origin: left top;}
+nav ul li a .menu_active{width: 100%; height: 3px; background: #6098ff;}
 
-  .st_title{position: absolute; width: 100%;height: 300px;}
-  .st_title_text{position: absolute; left: 50%; transform: translateX(-50%)translateY(80%);top: 0; bottom:0; border:3px solid rgb(240, 240, 128); text-align: center;width: 600px; height: 400px;}
+  .st_title{position: absolute; width: 550px;height: 550px; transform: translate(-50%, -50%);left: 50%; top:50%;padding:20px;overflow: hidden;box-shadow: 0 20px 50px rgb(206, 0, 0); background: linear-gradient( to bottom, #c9271bd7, #fff56cc7 ); border: 2px solid #c9271b;}
+  .st_title_text{position: absolute; top: 15px; bottom:15px;left: 15px;right: 15px; border:3px solid rgb(240, 240, 128); text-align: center;padding: 70px 20px; box-shadow: 0 5px 10px rgba(9,0,0,0.5);}
   .st_title_text>p{font-size: 50px; font-weight: bold;letter-spacing: 15px;padding-top: 70px;}
   .st_title_text>h1{font-size: 35px; letter-spacing: 5px;padding:50px 0 0 0; text-transform: uppercase;}
+  .st_title span{position: absolute;top:0; left:0; width: 100%;height: 100%;display: block;box-sizing: border-box;}
+  .st_title span:nth-child(1){transform:rotate(0deg);}
+  .st_title span:nth-child(2){transform:rotate(90deg);}
+  .st_title span:nth-child(3){transform:rotate(180deg);}
+  .st_title span:nth-child(4){transform:rotate(270deg);}
+  .st_title span:before{content:''; position: absolute;width: 100%;height: 2px; background:  #ff9f51f3;animation: animate 5s linear infinite;}
+  @keyframes animate{0%{transform:scaleX(0); transform-origin: left;} 50%{transform:scaleX(1);transform-origin: left;} 50.1%{transform:scaleX(1);transform-origin: right;} 100%{transform:scaleX(0); transform-origin: right;}}
+
 
   #introduce{width: 100%;height: 1000px;   background: linear-gradient( to bottom, #030d18 , #0b2e53  );padding-top: 200px;}
   .me{width: 1100px; height: 100%; margin: 0 auto;}
