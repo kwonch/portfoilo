@@ -72,7 +72,7 @@ nav.active{background: rgba(0, 0, 0, 0.315);}
   .btn{color:#fff; display: inline-block; top:40px; border: 1px solid #fff; padding:5px 70px; border-radius: 10px; font-size: 20px; position: relative; overflow: hidden;transition: all .3s ease-in-out;background: transparent; z-index:10; }
   .btn:hover{border:1px solid #071982; color:#fff56c;}
   .btn::before{content: " "; width: 0%;height: 100%;display: block;background: #c9271b;position: absolute; transform:skewX(-20deg);left:-10%;opacity: 1; top:0; z-index: -12;transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);box-shadow: 2px 0px 14px rgba(0,0,0,.6);}
-  .btn::after{content: " ";width: 0%;height: 100%;display: block; background: #fff56c;position: absolute;transform: skewX(-20deg);left:-10%;opacity: 0;top:0;z-index: -15;transition: all .4s cubic-bezier(.2,.95,.57,.99);box-shadow: 2px 0px 14px rgba(0,0,0);}
+  .btn::after{content: " ";width: 0%;height: 100%;display: block; background: #fff56c;position: absolute;transform: skewX(-20deg);left:-10%;opacity: 0;top:0;z-index: -15;transition: all .4s cubic-bezier(.2,.95,.57,.99);box-shadow: 2px 0px 14px black;}
   .btn:hover::before{ opacity: 1; width: 120%;}
   .btn:hover::after{opacity: 1;width: 120%;}
 
