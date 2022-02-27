@@ -23,5 +23,27 @@ $(function () {
 
    
 });
+$(function(){
+    var burger = $('.menu-trigger');
+
+    burger.each(function(index){
+      var $this = $(this);
+      
+      $this.on('click', function(e){
+        e.preventDefault();
+        $(this).toggleClass('active-' + (index+1));
+      })
+    });
+});
+
+$(function(){
+    $(".menu-trigger").click(function(){
+        $('.menu2>ul').toggle(300);
+        $('.menu2>ul').animate({
+            marginRight : 0
+        },200);
+    })
+});
+
 
 
